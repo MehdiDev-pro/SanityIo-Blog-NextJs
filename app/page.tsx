@@ -9,7 +9,7 @@ export const revalidate = 3600; // revalidate the data after time out
 
 
 const query = groq`
-*[_type =='post' && ((_id in path("drafts.**")) || !(_id in path("drafts.**")))]{
+*[_type =='post']{
   ...,
   author->,
   categories[]->,
