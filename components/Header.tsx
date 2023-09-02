@@ -9,7 +9,7 @@ export default function Header() {
           <div className="w-14 h-14 overflow-hidden rounded-full">
             <Image width={100} height={100} src="/myImage.jpg" alt="logo" />
           </div>
-          <h1 className="ml-2">Red_Eye Hub</h1>
+          <h1 className="ml-2">CodeSeer Hub</h1>
         </Link>
       </div>
       <div>
